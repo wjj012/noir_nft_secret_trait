@@ -1,0 +1,11 @@
+# Verifier.toml for ZK NFT Secret Trait Verification
+
+# === Public Inputs ===
+# These MUST match the public inputs in Prover.toml (after recomputation of hashes).
+
+nft_id = "NFT_ID_12345"
+
+# !!! CRITICAL: These hash values are PLACEHOLDERS.
+# Must match recomputed values from Prover.toml.
+claimed_ownership_proof = "707070..." # PLACEHOLDER - MUST MATCH PROVER'S RECOMPUTED VALUE
+target_trait_commitment = "808080..." # PLACEHOLDER - MUST MATCH PROVER'S RECOMPUTED VALUE
